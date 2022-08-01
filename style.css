@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    background-color: #fffde7;
+  font-family: ubuntu;
+}
+a{
+    text-decoration: none;
+  color: #fffde7;
+}
+ul li{
+    list-style: none;
+}
+/*header section*/
+header nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 180px;
+}
+header nav .logo{
+    width: 80px;
+    height: 30px;
+}
+header nav ul{
+    display: flex;
+  font-family: ubuntu;
+}
+.nav-item{
+    margin-top: 10px;
+}
+.nav-item .nav-list{
+    margin-right: 30px;
+}
+.nav-btn{
+  background-color: #6e10b8;
+  color: #fffde7;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 2px solid #fffde7;
+  padding: 10px;
+}
+.nav-btn:hover{
+  background-color: #fffde7;
+  font-weight: bold;
+  color: #6e10b8;
+  border: 2px solid #6e10b8;
+}
+/*.nav-btn a{
+  color: #fffde7;
+  font-weight: bold;
+  font-family: ubuntu;
+}
+.nav-btn a:hover{
+  color: #6e10b8;
+  font-weight: bold;
+  font-family: ubuntu;
+}
+/*hero section*/
+.hero{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.hero-text{
+    margin-top: 120px;
+    margin-left: 180px;
+  font-family: ubuntu;
+    font-size: 16px;
+}
+.hero-text span{
+    color: #6e10b8;
+}
+.hero p{
+    font-size: 16px;
+    margin-top: 20px;
+  font-family: ubuntu;
+}
+.hero-btn{
+    margin-top: 20px;
+    padding: 12px;
+    width: 150px;
+    background-color: transparent;
+    border: 2px solid #6e10b8;
+    border-radius: 10px;
+    color: #6e10b8;
+    font-size: 12px;
+  font-family: ubuntu;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.hero-btn a{
+    text-decoration: none;
+  color: #6e10b8;
+}
+
+.hero-btn a:hover{
+    text-decoration: none;
+  color: #fffde7;
+}
+
+.hero-btn:hover{
+  background-color: #6e10b8;
+  color: #fffde7;
+  border: 2px solid #fffde7;
+  font-weight: bold;
+}
+.hero-1, .hero-2{
+    margin-right: 150px;
+}
